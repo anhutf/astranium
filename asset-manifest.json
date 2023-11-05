@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/astranium/static/css/main.4ba0de69.css",
-    "main.js": "/astranium/static/js/main.b658eec7.js",
+    "main.css": "/astranium/static/css/main.879e8714.css",
+    "main.js": "/astranium/static/js/main.e68268bf.js",
     "static/js/787.fc28c5f2.chunk.js": "/astranium/static/js/787.fc28c5f2.chunk.js",
     "static/media/star.png": "/astranium/static/media/star.958074c0e05a6b97e407.png",
     "index.html": "/astranium/index.html",
-    "main.4ba0de69.css.map": "/astranium/static/css/main.4ba0de69.css.map",
-    "main.b658eec7.js.map": "/astranium/static/js/main.b658eec7.js.map",
+    "main.879e8714.css.map": "/astranium/static/css/main.879e8714.css.map",
+    "main.e68268bf.js.map": "/astranium/static/js/main.e68268bf.js.map",
     "787.fc28c5f2.chunk.js.map": "/astranium/static/js/787.fc28c5f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ba0de69.css",
-    "static/js/main.b658eec7.js"
+    "static/css/main.879e8714.css",
+    "static/js/main.e68268bf.js"
   ]
 }
