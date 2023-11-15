@@ -1,7 +1,8 @@
 import {
-  ChevronDoubleDownIcon,
   ShieldCheckIcon,
+  BanknotesIcon,
   WifiIcon,
+  UserGroupIcon,
 } from "@heroicons/react/24/outline";
 
 export default function TrustSection() {
@@ -15,12 +16,12 @@ export default function TrustSection() {
         mở đường hướng tới một thế giới đa kênh được kết nối thông qua
         Blockchain.
       </p>
-      <div className="grid gid-cols-1 sm:grid-cols-2 gap-6 items-center text-base sm:text-lg">
-        <div className="trust-content relative">
-          <span className="absolute -top-7 left-0 -z-50 text-7xl sm:text-8xl text-amber-100 font-bold">
-            01
+      <div className="grid gid-cols-1 sm:grid-cols-2 gap-6 text-base sm:text-lg">
+        <div className="trust-content">
+          <span class="inline-block bg-slate-100 rounded-xl p-2">
+            <ShieldCheckIcon className="h-12 w-12 text-amber-400" />
           </span>
-          <h4 className="text-2xl sm:text-3xl text-slate-700 font-bold pl-7 pb-4">
+          <h4 className="text-2xl sm:text-3xl text-slate-700 font-bold pb-4">
             Bảo mật cao
           </h4>
           <p className="text-lg sm:text-xl text-slate-600">
@@ -28,15 +29,11 @@ export default function TrustSection() {
             toàn cho toàn bộ Astra được stake.
           </p>
         </div>
-        <div className="mx-auto flex flex-col gap-6 items-center">
-          <ShieldCheckIcon className="h-40 w-40 text-amber-400 drop-shadow-lg animate-pulse" />
-          <span className="inline-block w-9/12 h-6 rounded-[50%] bg-amber-100 shadow-ct mb-8"></span>
-        </div>
-        <div className="trust-content relative sm:row-start-2 sm:col-start-2">
-          <span className="absolute -top-7 left-0 -z-50 text-7xl sm:text-8xl text-amber-100 font-bold">
-            02
+        <div className="trust-content">
+          <span class="inline-block bg-slate-100 rounded-xl p-2">
+            <BanknotesIcon className="h-12 w-12 text-amber-400" />
           </span>
-          <h4 className="text-2xl sm:text-3xl text-slate-700 font-bold pl-7 pb-4">
+          <h4 className="text-2xl sm:text-3xl text-slate-700 font-bold pb-4">
             Phí vận hành 5%
           </h4>
           <p className="text-lg sm:text-xl text-slate-600">
@@ -44,26 +41,37 @@ export default function TrustSection() {
             lợi nhuận của bạn luôn ở mức cao.
           </p>
         </div>
-        <div className="mx-auto flex flex-col gap-6 items-center">
-          <ChevronDoubleDownIcon className="h-40 w-40 text-amber-400 drop-shadow-lg animate-pulse" />
-          <span className="inline-block w-9/12 h-6 rounded-[50%] bg-amber-100 shadow-ct mb-8"></span>
-        </div>
-        <div className="trust-content relative">
-          <span className="absolute -top-7 left-0 -z-50 text-7xl sm:text-8xl text-amber-100 font-bold">
-            03
+
+        <div className="trust-content">
+          <span class="inline-block bg-slate-100 rounded-xl p-2">
+            <WifiIcon className="h-12 w-12 text-amber-400" />
           </span>
-          <h4 className="text-2xl sm:text-3xl text-slate-700 font-bold pl-7 pb-4">
+          <h4 className="text-2xl sm:text-3xl text-slate-700 font-bold pb-4">
             Luôn trực tuyến
           </h4>
           <p className="text-lg sm:text-xl text-slate-600">
-            Astranium xậy dựng trên hệ thống máy chủ ảo uy tín, đảm bảo trình
-            xác thực hoạt động liên tục. Xác thực, nâng cao bảo mật cho Astra và
-            nhận phần thưởng.
+            Astranium xậy dựng trên hệ thống máy chủ ảo uy tín, đảm bảo hoạt
+            động liên tục. Xác thực, nâng cao bảo mật cho Astra và nhận thưởng.
           </p>
         </div>
-        <div className="mx-auto flex flex-col gap-6 items-center">
-          <WifiIcon className="h-40 w-40 text-amber-400 drop-shadow-lg animate-pulse" />
-          <span className="inline-block w-9/12 h-6 rounded-[50%] bg-amber-100 shadow-ct mb-8"></span>
+        <div className="trust-content">
+          <span class="inline-block bg-slate-100 rounded-xl p-2">
+            <UserGroupIcon className="h-12 w-12 text-amber-400" />
+          </span>
+          <h4 className="text-2xl sm:text-3xl text-slate-700 font-bold pb-4">
+            Hỗ trợ nhanh
+          </h4>
+          <p className="text-lg sm:text-xl text-slate-600">
+            Bạn luôn nhận được hỗ trợ tất cả nội dung liên quan đến Asa khi tham
+            gia và liên hệ qua kênh telegram{" "}
+            <a
+              href="https://t.me/astranium_official"
+              className="text-amber-400 hover:text-amber-500"
+            >
+              Astranium Official
+            </a>
+            .
+          </p>
         </div>
       </div>
     </section>

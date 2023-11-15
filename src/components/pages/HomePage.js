@@ -1,5 +1,6 @@
 import CommunitySection from "../section/CommunitySection";
 import HeroSection from "../section/HeroSection";
+import HowItWorksSection from "../section/HowItWorksSection";
 import TrustSection from "../section/TrustSection";
 
 export default function HomePage() {
@@ -7,6 +8,7 @@ export default function HomePage() {
     <>
       <HeroSection />
       <TrustSection />
+      <HowItWorksSection />
       <CommunitySection />
     </>
   );

@@ -6,7 +6,7 @@ export default function HeroSection() {
       <div className="max-w-5xl mx-auto px-4 sm:px-8 py-16">
         <h1 className="text-amber-300 text-5xl sm:text-6xl font-bold tracking-tight pt-4">
           Stake for the{" "}
-          <span class="before:block before:absolute before:-inset-1  before:bg-orange-400 relative inline-block">
+          <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-orange-400 relative inline-block">
             <span class="relative text-white">future</span>
           </span>{" "}
           and grow with Astranium
